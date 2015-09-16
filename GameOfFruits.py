@@ -11,11 +11,11 @@ turn = 0
 
 def Start():
     name = input("Hi, what is your name?")
-    if name == "Akbar" or name == "Akbar26":
+    if name.capitalize() == "Akbar" or name.capitalize() == "Akbar26":
         print("Welcome, great one", name)
-    elif name == "Prameeth" or name == "Yoh" or name == "Yoh1991" or name == "prameeth" or name == "yoh" or name == "yoh1991" or name == "Edi" or name == "edi":
+    elif name.capitalize() == "Prameeth" or name.capitalize() == "Yoh" or name.capitalize() == "Yoh1991" or name.capitalize() == "Edi":
         print("Welcome, League of Legends pro", name)
-    elif name == "Felix" or name == "Hong 10" or name == "felix" or name == "hong 10" or name == "Hong10" or name == "hong10" or name == "gfloy" or name == "mfloy" or name == "bboy":
+    elif name.capitalize() == "Felix" or name.capitalize() == "Hong 10" or name.capitalize() == "Hong10" or name.capitalize() == "gfloy" or name.capitalize() == "mfloy":
         print("Welcome, amazing bboy ", name, ". You should try playing League of Legends sometime", sep="")
     else:
         print("Welcome " + name + "!")
